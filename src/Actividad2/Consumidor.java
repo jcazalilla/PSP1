@@ -30,12 +30,7 @@ public class Consumidor extends Thread {
         } catch (InterruptedException ex) {
             Logger.getLogger(Consumidor.class.getName()).log(Level.SEVERE, null, ex);
         }
-        try {
-            sleep(150);
-            notifyAll();
-        } catch (InterruptedException ex) {
-            ex.printStackTrace();
-        }
+       
 
     }
 }

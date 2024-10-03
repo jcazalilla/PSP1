@@ -30,8 +30,9 @@ public class SemaforoTabla {
             System.out.printf("Hilo %s, introduce el valor %d en la posición %d, Array = %s, Suma=%d \n",
                     nombre, numero, al.size() - 1, al, suma);
             sleep(1000);
+         
         } while (suma <= 100 && al.size() < 10);
-
+        
     }
 
     public synchronized void saleNumero(String nombre) throws InterruptedException {
@@ -48,6 +49,7 @@ public class SemaforoTabla {
              System.out.printf("Hilo %s, saca el valor %d en la posición %d, Array = %s, Suma=%d \n",
                     nombre, al.get(al.size()-1), al.size() - 1, al, suma);
              sleep(1500);
+             
         } while (suma <= 100 && !al.isEmpty());
     }
 }

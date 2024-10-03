@@ -21,12 +21,12 @@ public class Main {
         Consumidor hiloC = new Consumidor("Cosumidor1");
 
         hiloP1.start();
-        hiloP1.join();
+        //hiloP1.join();
         hiloP2.start();
-        hiloP2.join();
+       // hiloP2.join();
 
         hiloC.start();
-        hiloC.join();
+       // hiloC.join();
 
     }
 
