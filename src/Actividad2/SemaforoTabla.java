@@ -50,4 +50,8 @@ public class SemaforoTabla {
 
         } while (!al.isEmpty());
     }
+    
+    public synchronized void finaliza(){
+        notifyAll();
+    }
 }

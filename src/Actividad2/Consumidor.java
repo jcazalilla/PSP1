@@ -28,9 +28,8 @@ public class Consumidor extends Thread {
         try {
             smf.saleNumero(nombre);
         } catch (InterruptedException ex) {
-            Logger.getLogger(Consumidor.class.getName()).log(Level.SEVERE, null, ex);
+            ex.printStackTrace();
         }
-       
-
+        smf.finaliza();
     }
 }

@@ -32,6 +32,6 @@ public class Productor extends Thread {
         } catch (InterruptedException ex) {
             ex.printStackTrace();
         }
-
+        smf.finaliza();
     }
 }
