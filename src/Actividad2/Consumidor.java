@@ -25,13 +25,7 @@ public class Consumidor extends Thread {
     public void run() {
 
         smf.saleNumero(nombre);
-        try {
-
-            sleep(1500);
-
-        } catch (InterruptedException ex) {
-            ex.printStackTrace();
-        }
-        smf.finaliza();
+        
+        //smf.finaliza();
     }
 }

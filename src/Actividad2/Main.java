@@ -4,6 +4,9 @@
  */
 package Actividad2;
 
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 /**
  *
  * @author Jesús Cazalilla
@@ -21,9 +24,18 @@ public class Main {
         Consumidor hiloC = new Consumidor("Cosumidor");
 
         hiloP1.start();
+        hiloC.start();
         hiloP2.start();
 
-        hiloC.start();
+        try {
+            hiloP1.join();
+            hiloP2.join();
+
+            hiloC.join();
+        } catch (InterruptedException ex) {
+            ex.printStackTrace();
+        }
+
     }
 
 }

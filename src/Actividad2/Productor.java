@@ -21,17 +21,12 @@ public class Productor extends Thread {
         this.nombre = nombre;
     }
 
+
     @Override
     public void run() {
 
         smf.entraNumero(nombre);
-        try {
-
-            sleep(1000);
-
-        } catch (InterruptedException ex) {
-            ex.printStackTrace();
-        }
-        smf.finaliza();
+        
+        //smf.finaliza();
     }
 }
