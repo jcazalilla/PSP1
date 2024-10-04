@@ -31,6 +31,8 @@ public class Semaforo {
                 System.out.printf("Hilo %s, introduce el valor %d en la posición %d, Array = %s, Suma=%d \n",
                         nombre, numero, indice, al, suma);
                 sleep(1000);
+            }else{
+                wait();
             }
         }
 
@@ -53,6 +55,6 @@ public class Semaforo {
     }
 
     public synchronized void finaliza() {
-        notifyAll();
+        notify();
     }
 }

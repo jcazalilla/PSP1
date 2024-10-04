@@ -14,7 +14,6 @@ import java.util.logging.Logger;
 public class Consumidor extends Thread {
 
     String nombre;
-    //TablaNumeros tb = new TablaNumeros();
     Semaforo smf = new Semaforo();
 
     public Consumidor(String nombre0) {

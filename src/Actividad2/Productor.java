@@ -14,7 +14,6 @@ import java.util.logging.Logger;
 public class Productor extends Thread {
 
     String nombre; //nombre del hilo
-    //TablaNumeros tb = new TablaNumeros();
     Semaforo smf = new Semaforo();
 
     public Productor(String nombre) {

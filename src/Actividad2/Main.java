@@ -13,15 +13,14 @@ public class Main {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args)  {
 
-        String nombre;
-        Semaforo smf;
+      
 
         Productor hiloP1 = new Productor("Productor1");
         Productor hiloP2 = new Productor("Productor2");
 
-        // Consumidor hiloC = new Consumidor("Cosumidor1");
+        // Consumidor hiloC = new Consumidor("Cosumidor");
         hiloP1.start();
         //hiloP1.join();
         hiloP2.start();
