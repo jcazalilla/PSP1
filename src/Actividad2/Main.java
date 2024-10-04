@@ -15,19 +15,20 @@ public class Main {
      */
     public static void main(String[] args) throws InterruptedException {
 
+        String nombre;
+        Semaforo smf;
+
         Productor hiloP1 = new Productor("Productor1");
         Productor hiloP2 = new Productor("Productor2");
 
-        Consumidor hiloC = new Consumidor("Cosumidor1");
-
+        // Consumidor hiloC = new Consumidor("Cosumidor1");
         hiloP1.start();
         //hiloP1.join();
         hiloP2.start();
-       // hiloP2.join();
+        // hiloP2.join();
 
-        hiloC.start();
-       // hiloC.join();
-
+        //hiloC.start();
+        // hiloC.join();
     }
 
 }

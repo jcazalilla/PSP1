@@ -15,7 +15,7 @@ public class Consumidor extends Thread {
 
     String nombre;
     //TablaNumeros tb = new TablaNumeros();
-    SemaforoTabla smf = new SemaforoTabla();
+    Semaforo smf = new Semaforo();
 
     public Consumidor(String nombre0) {
 

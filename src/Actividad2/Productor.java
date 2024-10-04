@@ -15,7 +15,7 @@ public class Productor extends Thread {
 
     String nombre; //nombre del hilo
     //TablaNumeros tb = new TablaNumeros();
-    SemaforoTabla smf = new SemaforoTabla();
+    Semaforo smf = new Semaforo();
 
     public Productor(String nombre) {
 
