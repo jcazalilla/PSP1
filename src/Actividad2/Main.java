@@ -13,21 +13,17 @@ public class Main {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args)  {
-
-      
+    public static void main(String[] args) {
 
         Productor hiloP1 = new Productor("Productor1");
         Productor hiloP2 = new Productor("Productor2");
 
-        // Consumidor hiloC = new Consumidor("Cosumidor");
-        hiloP1.start();
-        //hiloP1.join();
-        hiloP2.start();
-        // hiloP2.join();
+        Consumidor hiloC = new Consumidor("Cosumidor");
 
-        //hiloC.start();
-        // hiloC.join();
+        hiloP1.start();
+        hiloP2.start();
+
+        hiloC.start();
     }
 
 }

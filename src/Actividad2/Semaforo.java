@@ -6,6 +6,9 @@ package Actividad2;
 
 import static java.lang.Thread.sleep;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 /**
  *
@@ -20,7 +23,7 @@ public class Semaforo {
         this.al = new ArrayList<>();
     }
 
-    public synchronized void entraNumero(String nombre) throws InterruptedException {
+    public synchronized void entraNumero(String nombre) {
 
         while (suma < 100) {
             if (al.size() < 10) {
@@ -30,28 +33,37 @@ public class Semaforo {
                 suma += numero;
                 System.out.printf("Hilo %s, introduce el valor %d en la posición %d, Array = %s, Suma=%d \n",
                         nombre, numero, indice, al, suma);
-                sleep(1000);
-            }else{
-                wait();
+
+            } else if (al.size() >= 10) {
+                try {
+                    wait();
+                } catch (InterruptedException ex) {
+                    ex.printStackTrace();
+                }
+
             }
         }
 
     }
 
-    public synchronized void saleNumero(String nombre) throws InterruptedException {
+    public synchronized void saleNumero(String nombre) {
 
-        do {
+        if (!al.isEmpty()) {//si no está vacio puede sacar números
             indice = al.size() - 1;
             numero = al.get(indice);
             al.remove(indice);
-
-            //}
             suma -= numero;
             System.out.printf("Hilo %s, saca el valor %d en la posición %d, Array = %s, Suma=%d \n",
                     nombre, numero, indice, al, suma);
-            sleep(1500);
 
-        } while (!al.isEmpty());
+        } else if (al.isEmpty()) {
+            try {
+                wait();
+            } catch (InterruptedException ex) {
+                ex.printStackTrace();
+            }
+
+        }
     }
 
     public synchronized void finaliza() {

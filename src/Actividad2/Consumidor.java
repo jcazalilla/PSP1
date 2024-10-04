@@ -13,10 +13,10 @@ import java.util.logging.Logger;
  */
 public class Consumidor extends Thread {
 
-    String nombre;
+    String nombre; //nombre del hilo
     Semaforo smf = new Semaforo();
 
-    public Consumidor(String nombre0) {
+    public Consumidor(String nombre) {
 
         this.nombre = nombre;
     }
@@ -24,8 +24,11 @@ public class Consumidor extends Thread {
     @Override
     public void run() {
 
+        smf.saleNumero(nombre);
         try {
-            smf.saleNumero(nombre);
+
+            sleep(1500);
+
         } catch (InterruptedException ex) {
             ex.printStackTrace();
         }

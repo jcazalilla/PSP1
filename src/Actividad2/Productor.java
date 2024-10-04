@@ -24,10 +24,11 @@ public class Productor extends Thread {
     @Override
     public void run() {
 
+        smf.entraNumero(nombre);
         try {
-            smf.entraNumero(nombre);
-            
-            //notifyAll();
+
+            sleep(1000);
+
         } catch (InterruptedException ex) {
             ex.printStackTrace();
         }
