@@ -1,0 +1,57 @@
+============================================================================
+################  Ejecución de hilos Productores  ##########################
+============================================================================
+Hilo Productor2, introduce el valor 0 en la posición 0, Array = [0], Suma=28 
+Hilo Productor2, introduce el valor 9 en la posición 1, Array = [0, 9], Suma=28 
+Hilo Productor2, introduce el valor 4 en la posición 2, Array = [0, 9, 4], Suma=28 
+Hilo Productor2, introduce el valor 10 en la posición 3, Array = [0, 9, 4, 10], Suma=28 
+Hilo Productor2, introduce el valor 9 en la posición 4, Array = [0, 9, 4, 10, 9], Suma=28 
+Hilo Productor2, introduce el valor 9 en la posición 5, Array = [0, 9, 4, 10, 9, 9], Suma=28 
+Hilo Productor2, introduce el valor 10 en la posición 6, Array = [0, 9, 4, 10, 9, 9, 10], Suma=28 
+Hilo Productor2, introduce el valor 2 en la posición 7, Array = [0, 9, 4, 10, 9, 9, 10, 2], Suma=28 
+Hilo Productor2, introduce el valor 8 en la posición 8, Array = [0, 9, 4, 10, 9, 9, 10, 2, 8], Suma=28 
+Hilo Productor2, introduce el valor 1 en la posición 9, Array = [0, 9, 4, 10, 9, 9, 10, 2, 8, 1], Suma=28 
+Hilo Productor2, introduce el valor 4 en la posición 8, Array = [10, 10, 5, 6, 1, 3, 7, 0, 4], Suma=104 
+============================================================================
+################  Ejecución de hilos Productores  ##########################
+============================================================================
+Hilo Productor1, introduce el valor 7 en la posición 0, Array = [7], Suma=0 
+Hilo Productor1, introduce el valor 6 en la posición 1, Array = [7, 6], Suma=0 
+Hilo Productor1, introduce el valor 2 en la posición 2, Array = [7, 6, 2], Suma=0 
+Hilo Productor1, introduce el valor 2 en la posición 3, Array = [7, 6, 2, 2], Suma=0 
+Hilo Productor1, introduce el valor 6 en la posición 4, Array = [7, 6, 2, 2, 6], Suma=0 
+Hilo Productor1, introduce el valor 3 en la posición 5, Array = [7, 6, 2, 2, 6, 3], Suma=0 
+Hilo Productor1, introduce el valor 2 en la posición 6, Array = [7, 6, 2, 2, 6, 3, 2], Suma=0 
+Hilo Productor1, introduce el valor 10 en la posición 0, Array = [10], Suma=90 
+Hilo Productor1, introduce el valor 10 en la posición 1, Array = [10, 10], Suma=90 
+Hilo Productor1, introduce el valor 5 en la posición 2, Array = [10, 10, 5], Suma=90 
+Hilo Productor1, introduce el valor 6 en la posición 3, Array = [10, 10, 5, 6], Suma=90 
+Hilo Productor1, introduce el valor 1 en la posición 4, Array = [10, 10, 5, 6, 1], Suma=90 
+Hilo Productor1, introduce el valor 3 en la posición 5, Array = [10, 10, 5, 6, 1, 3], Suma=90 
+Hilo Productor1, introduce el valor 7 en la posición 6, Array = [10, 10, 5, 6, 1, 3, 7], Suma=90 
+Hilo Productor1, introduce el valor 0 en la posición 7, Array = [10, 10, 5, 6, 1, 3, 7, 0], Suma=90 
+Hilo Productor1, introduce el valor 9 en la posición 8, Array = [10, 10, 5, 6, 1, 3, 7, 0, 9], Suma=90 
+Hilo Productor1, introduce el valor 5 en la posición 9, Array = [10, 10, 5, 6, 1, 3, 7, 0, 9, 5], Suma=90 
+Hilo Productor1, introduce el valor 6 en la posición 9, Array = [10, 10, 5, 6, 1, 3, 7, 0, 4, 6], Suma=104 
+============================================================================
+###############  Ejecución de hilos Consumidores  ##########################
+============================================================================
+Hilo Cosumidor, saca el valor 2 en la posición 6, Array = [7, 6, 2, 2, 6, 3], Suma=2 
+Hilo Cosumidor, saca el valor 3 en la posición 5, Array = [7, 6, 2, 2, 6], Suma=5 
+Hilo Cosumidor, saca el valor 6 en la posición 4, Array = [7, 6, 2, 2], Suma=11 
+Hilo Cosumidor, saca el valor 2 en la posición 3, Array = [7, 6, 2], Suma=13 
+Hilo Cosumidor, saca el valor 2 en la posición 2, Array = [7, 6], Suma=15 
+Hilo Cosumidor, saca el valor 6 en la posición 1, Array = [7], Suma=21 
+Hilo Cosumidor, saca el valor 7 en la posición 0, Array = [], Suma=28 
+Hilo Cosumidor, saca el valor 1 en la posición 9, Array = [0, 9, 4, 10, 9, 9, 10, 2, 8], Suma=29 
+Hilo Cosumidor, saca el valor 8 en la posición 8, Array = [0, 9, 4, 10, 9, 9, 10, 2], Suma=37 
+Hilo Cosumidor, saca el valor 2 en la posición 7, Array = [0, 9, 4, 10, 9, 9, 10], Suma=39 
+Hilo Cosumidor, saca el valor 10 en la posición 6, Array = [0, 9, 4, 10, 9, 9], Suma=49 
+Hilo Cosumidor, saca el valor 9 en la posición 5, Array = [0, 9, 4, 10, 9], Suma=58 
+Hilo Cosumidor, saca el valor 9 en la posición 4, Array = [0, 9, 4, 10], Suma=67 
+Hilo Cosumidor, saca el valor 10 en la posición 3, Array = [0, 9, 4], Suma=77 
+Hilo Cosumidor, saca el valor 4 en la posición 2, Array = [0, 9], Suma=81 
+Hilo Cosumidor, saca el valor 9 en la posición 1, Array = [0], Suma=90 
+Hilo Cosumidor, saca el valor 0 en la posición 0, Array = [], Suma=90 
+Hilo Cosumidor, saca el valor 5 en la posición 9, Array = [10, 10, 5, 6, 1, 3, 7, 0, 9], Suma=95 
+Hilo Cosumidor, saca el valor 9 en la posición 8, Array = [10, 10, 5, 6, 1, 3, 7, 0], Suma=104 

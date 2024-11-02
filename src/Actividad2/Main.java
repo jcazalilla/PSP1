@@ -4,38 +4,33 @@
  */
 package Actividad2;
 
-import java.util.logging.Level;
-import java.util.logging.Logger;
+import java.io.File;
+import java.util.ArrayList;
 
 /**
  *
  * @author Jesús Cazalilla
  */
 public class Main {
+    
+    
 
     /**
      * @param args the command line arguments
+     * @throws InterruptedException
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 
-        Productor hiloP1 = new Productor("Productor1");
-        Productor hiloP2 = new Productor("Productor2");
+        //creamos ArrayList para almacenar la producción y
+        //consumo de los elementos de tipo entero.
+        ArrayList<Integer> al = new ArrayList<>();
+      
+        
 
-        Consumidor hiloC = new Consumidor("Cosumidor");
+        new Productor("Productor1", al).start();
+        new Productor("Productor2", al).start();
 
-        hiloP1.start();
-        hiloC.start();
-        hiloP2.start();
-
-        try {
-            hiloP1.join();
-            hiloP2.join();
-
-            hiloC.join();
-        } catch (InterruptedException ex) {
-            ex.printStackTrace();
-        }
+        new Consumidor("Cosumidor", al).start();
 
     }
-
 }

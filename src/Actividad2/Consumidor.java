@@ -4,8 +4,7 @@
  */
 package Actividad2;
 
-import java.util.logging.Level;
-import java.util.logging.Logger;
+import java.util.ArrayList;
 
 /**
  *
@@ -13,19 +12,33 @@ import java.util.logging.Logger;
  */
 public class Consumidor extends Thread {
 
+    ArrayList<Integer> al;
     String nombre; //nombre del hilo
     Semaforo smf = new Semaforo();
 
-    public Consumidor(String nombre) {
+    public Consumidor(String nombre, ArrayList<Integer> al) {
 
         this.nombre = nombre;
+        this.al = al;
     }
 
     @Override
-    public void run() {
+    public synchronized void run() {
 
-        smf.saleNumero(nombre);
-        
-        //smf.finaliza();
+        try {
+            smf.saleNumero(this.nombre, this.al);
+            
+        } catch (InterruptedException ex) {
+            System.out.println(ex.getMessage());
+        }
+
+        finalizaConsumidor();
+
+    }
+
+    private synchronized void finalizaConsumidor() {
+
+        notifyAll();
+
     }
 }
