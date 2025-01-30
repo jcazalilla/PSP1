@@ -1,0 +1,24 @@
+
+
+La actividad 1 se compone en 4 partes
+
+    *** Primera parte. Implementa una aplicación, llamada ´cadenas´, que genere cadenas formadas por caracteres del alfabeto (a-z). La cantidad de cadenas será indicada por el usuario al ejecutar la aplicación y su longitud será aleatoria (máximo 10 caracteres). Las cadenas se deben escribir en el socket establecido con la aplicación 'frecuencia'.
+
+   *** Segunda parte. Implementa una aplicación, llamada ´frecuencia´, que dada una cadena de texto recibida a través del socket obtenga la frecuencia absoluta de cada una de las vocales, es decir, la cantidad de veces que aparece cada vocal. En el caso de que una de las vocales no aparezca la frecuencia será 0. Por ejemplo: para la palabra “caramelo” el resultado debe ser 2 1 0 1 0
+
+   *** Tercera parte. Para generar palabras parecidas al español y que no salgan combinaciones extrañas de muchas consonantes seguidas, podéis utilizar un array de sílabas de dos o tres letras que siempre contengan una vocal:
+
+String[] SILABAS = {
+        "ba", "be", "bi", "bo", "bu", "ca", "ce", "ci", "co", "cu", "da"........, "zo", "zu"
+}
+
+Cuanto más completo creéis el array, más combinaciones posibles. Lo normal es que se generen cadenas que no tengan ningún significado pero que si tengan un parecido al español.
+
+    *** Cuarta parte. Realiza un pequeño manual (tipo “¿Cómo se hace?”), utilizando un procesador de textos en el que indiques, con pequeñas explicaciones y capturas, cómo has probado la ejecución de las aplicaciones que has implementado en este ejercicio. Entre las pruebas que hayas realizado, debes incluir una captura del resultado final donde debe tener el siguiente aspecto:
+
+    Cadena: caramelo --> 2 1 0 1 0
+    Cadena: cotimu --> 0 0 1 1 1
+    Cadena: tomate --> 1 1 0 1 0
+
+En una captura de una ejecución de la prueba es OBLIGATORIO tener como fondo la plataforma con el perfil del alumno/a;
+

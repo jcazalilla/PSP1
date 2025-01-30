@@ -1,0 +1,317 @@
+============================================================================
+################  Ejecuci贸n de hilos Productores  ##########################
+============================================================================
+Hilo Productor1, introduce el valor 5 en la posici贸n 0, Array = [5], Suma=0 
+Hilo Productor1, introduce el valor 6 en la posici贸n 1, Array = [5, 6], Suma=0 
+Hilo Productor1, introduce el valor 3 en la posici贸n 2, Array = [5, 6, 3], Suma=0 
+Hilo Productor1, introduce el valor 10 en la posici贸n 3, Array = [5, 6, 3, 10], Suma=0 
+Hilo Productor1, introduce el valor 5 en la posici贸n 4, Array = [5, 6, 3, 10, 5], Suma=0 
+Hilo Productor1, introduce el valor 9 en la posici贸n 5, Array = [5, 6, 3, 10, 5, 9], Suma=0 
+Hilo Productor1, introduce el valor 4 en la posici贸n 6, Array = [5, 6, 3, 10, 5, 9, 4], Suma=0 
+Hilo Productor1, introduce el valor 3 en la posici贸n 7, Array = [5, 6, 3, 10, 5, 9, 4, 3], Suma=0 
+Hilo Productor1, introduce el valor 10 en la posici贸n 8, Array = [5, 6, 3, 10, 5, 9, 4, 3, 10], Suma=0 
+Hilo Productor1, introduce el valor 3 en la posici贸n 9, Array = [5, 6, 3, 10, 5, 9, 4, 3, 10, 3], Suma=0 
+Hilo Productor1, introduce el valor 3 en la posici贸n 0, Array = [3], Suma=58 
+Hilo Productor1, introduce el valor 6 en la posici贸n 1, Array = [3, 6], Suma=58 
+Hilo Productor1, introduce el valor 7 en la posici贸n 2, Array = [3, 6, 7], Suma=58 
+Hilo Productor1, introduce el valor 10 en la posici贸n 3, Array = [3, 6, 7, 10], Suma=58 
+Hilo Productor1, introduce el valor 3 en la posici贸n 4, Array = [3, 6, 7, 10, 3], Suma=58 
+Hilo Productor1, introduce el valor 5 en la posici贸n 5, Array = [3, 6, 7, 10, 3, 5], Suma=58 
+Hilo Productor1, introduce el valor 4 en la posici贸n 6, Array = [3, 6, 7, 10, 3, 5, 4], Suma=58 
+Hilo Productor1, introduce el valor 4 en la posici贸n 7, Array = [3, 6, 7, 10, 3, 5, 4, 4], Suma=58 
+Hilo Productor1, introduce el valor 3 en la posici贸n 8, Array = [3, 6, 7, 10, 3, 5, 4, 4, 3], Suma=58 
+Hilo Productor1, introduce el valor 1 en la posici贸n 9, Array = [3, 6, 7, 10, 3, 5, 4, 4, 3, 1], Suma=58 
+Hilo Productor1, introduce el valor 2 en la posici贸n 1, Array = [3, 2], Suma=101 
+============================================================================
+################  Ejecuci贸n de hilos Productores  ##########################
+============================================================================
+Hilo Productor2, introduce el valor 4 en la posici贸n 2, Array = [3, 2, 4], Suma=101 
+============================================================================
+###############  Ejecuci贸n de hilos Consumidores  ##########################
+============================================================================
+Hilo Cosumidor, saca el valor 3 en la posici贸n 9, Array = [5, 6, 3, 10, 5, 9, 4, 3, 10], Suma=3 
+Hilo Cosumidor, saca el valor 10 en la posici贸n 8, Array = [5, 6, 3, 10, 5, 9, 4, 3], Suma=13 
+Hilo Cosumidor, saca el valor 3 en la posici贸n 7, Array = [5, 6, 3, 10, 5, 9, 4], Suma=16 
+Hilo Cosumidor, saca el valor 4 en la posici贸n 6, Array = [5, 6, 3, 10, 5, 9], Suma=20 
+Hilo Cosumidor, saca el valor 9 en la posici贸n 5, Array = [5, 6, 3, 10, 5], Suma=29 
+Hilo Cosumidor, saca el valor 5 en la posici贸n 4, Array = [5, 6, 3, 10], Suma=34 
+Hilo Cosumidor, saca el valor 10 en la posici贸n 3, Array = [5, 6, 3], Suma=44 
+Hilo Cosumidor, saca el valor 3 en la posici贸n 2, Array = [5, 6], Suma=47 
+Hilo Cosumidor, saca el valor 6 en la posici贸n 1, Array = [5], Suma=53 
+Hilo Cosumidor, saca el valor 5 en la posici贸n 0, Array = [], Suma=58 
+Hilo Cosumidor, saca el valor 1 en la posici贸n 9, Array = [3, 6, 7, 10, 3, 5, 4, 4, 3], Suma=59 
+Hilo Cosumidor, saca el valor 3 en la posici贸n 8, Array = [3, 6, 7, 10, 3, 5, 4, 4], Suma=62 
+Hilo Cosumidor, saca el valor 4 en la posici贸n 7, Array = [3, 6, 7, 10, 3, 5, 4], Suma=66 
+Hilo Cosumidor, saca el valor 4 en la posici贸n 6, Array = [3, 6, 7, 10, 3, 5], Suma=70 
+Hilo Cosumidor, saca el valor 5 en la posici贸n 5, Array = [3, 6, 7, 10, 3], Suma=75 
+Hilo Cosumidor, saca el valor 3 en la posici贸n 4, Array = [3, 6, 7, 10], Suma=78 
+Hilo Cosumidor, saca el valor 10 en la posici贸n 3, Array = [3, 6, 7], Suma=88 
+Hilo Cosumidor, saca el valor 7 en la posici贸n 2, Array = [3, 6], Suma=95 
+Hilo Cosumidor, saca el valor 6 en la posici贸n 1, Array = [3], Suma=101 
+============================================================================
+################  Ejecuci髇 de hilos Productores  ##########################
+============================================================================
+Hilo Productor1, introduce el valor 5 en la posici髇 0, Array = [5], Suma=0 
+Hilo Productor1, introduce el valor 6 en la posici髇 1, Array = [5, 6], Suma=0 
+Hilo Productor1, introduce el valor 1 en la posici髇 2, Array = [5, 6, 1], Suma=0 
+Hilo Productor1, introduce el valor 10 en la posici髇 3, Array = [5, 6, 1, 10], Suma=0 
+Hilo Productor1, introduce el valor 5 en la posici髇 4, Array = [5, 6, 1, 10, 5], Suma=0 
+Hilo Productor1, introduce el valor 2 en la posici髇 5, Array = [5, 6, 1, 10, 5, 2], Suma=0 
+Hilo Productor1, introduce el valor 4 en la posici髇 6, Array = [5, 6, 1, 10, 5, 2, 4], Suma=0 
+Hilo Productor1, introduce el valor 7 en la posici髇 7, Array = [5, 6, 1, 10, 5, 2, 4, 7], Suma=0 
+Hilo Productor1, introduce el valor 4 en la posici髇 8, Array = [5, 6, 1, 10, 5, 2, 4, 7, 4], Suma=0 
+Hilo Productor1, introduce el valor 2 en la posici髇 9, Array = [5, 6, 1, 10, 5, 2, 4, 7, 4, 2], Suma=0 
+Hilo Productor1, introduce el valor 9 en la posici髇 0, Array = [9], Suma=46 
+Hilo Productor1, introduce el valor 4 en la posici髇 1, Array = [9, 4], Suma=46 
+Hilo Productor1, introduce el valor 4 en la posici髇 2, Array = [9, 4, 4], Suma=46 
+Hilo Productor1, introduce el valor 4 en la posici髇 3, Array = [9, 4, 4, 4], Suma=46 
+Hilo Productor1, introduce el valor 8 en la posici髇 4, Array = [9, 4, 4, 4, 8], Suma=46 
+Hilo Productor1, introduce el valor 2 en la posici髇 5, Array = [9, 4, 4, 4, 8, 2], Suma=46 
+Hilo Productor1, introduce el valor 3 en la posici髇 6, Array = [9, 4, 4, 4, 8, 2, 3], Suma=46 
+Hilo Productor1, introduce el valor 7 en la posici髇 7, Array = [9, 4, 4, 4, 8, 2, 3, 7], Suma=46 
+Hilo Productor1, introduce el valor 3 en la posici髇 8, Array = [9, 4, 4, 4, 8, 2, 3, 7, 3], Suma=46 
+Hilo Productor1, introduce el valor 0 en la posici髇 9, Array = [9, 4, 4, 4, 8, 2, 3, 7, 3, 0], Suma=46 
+Hilo Productor1, introduce el valor 6 en la posici髇 0, Array = [6], Suma=90 
+Hilo Productor1, introduce el valor 6 en la posici髇 1, Array = [6, 6], Suma=90 
+Hilo Productor1, introduce el valor 7 en la posici髇 2, Array = [6, 6, 7], Suma=90 
+Hilo Productor1, introduce el valor 0 en la posici髇 3, Array = [6, 6, 7, 0], Suma=90 
+Hilo Productor1, introduce el valor 3 en la posici髇 4, Array = [6, 6, 7, 0, 3], Suma=90 
+Hilo Productor1, introduce el valor 0 en la posici髇 5, Array = [6, 6, 7, 0, 3, 0], Suma=90 
+Hilo Productor1, introduce el valor 8 en la posici髇 6, Array = [6, 6, 7, 0, 3, 0, 8], Suma=90 
+Hilo Productor1, introduce el valor 5 en la posici髇 7, Array = [6, 6, 7, 0, 3, 0, 8, 5], Suma=90 
+Hilo Productor1, introduce el valor 8 en la posici髇 8, Array = [6, 6, 7, 0, 3, 0, 8, 5, 8], Suma=90 
+Hilo Productor1, introduce el valor 8 en la posici髇 9, Array = [6, 6, 7, 0, 3, 0, 8, 5, 8, 8], Suma=90 
+Hilo Productor1, introduce el valor 6 en la posici髇 8, Array = [6, 6, 7, 0, 3, 0, 8, 5, 6], Suma=106 
+============================================================================
+################  Ejecuci髇 de hilos Productores  ##########################
+============================================================================
+Hilo Productor2, introduce el valor 9 en la posici髇 9, Array = [6, 6, 7, 0, 3, 0, 8, 5, 6, 9], Suma=106 
+============================================================================
+###############  Ejecuci髇 de hilos Consumidores  ##########################
+============================================================================
+Hilo Cosumidor, saca el valor 2 en la posici髇 9, Array = [5, 6, 1, 10, 5, 2, 4, 7, 4], Suma=2 
+Hilo Cosumidor, saca el valor 4 en la posici髇 8, Array = [5, 6, 1, 10, 5, 2, 4, 7], Suma=6 
+Hilo Cosumidor, saca el valor 7 en la posici髇 7, Array = [5, 6, 1, 10, 5, 2, 4], Suma=13 
+Hilo Cosumidor, saca el valor 4 en la posici髇 6, Array = [5, 6, 1, 10, 5, 2], Suma=17 
+Hilo Cosumidor, saca el valor 2 en la posici髇 5, Array = [5, 6, 1, 10, 5], Suma=19 
+Hilo Cosumidor, saca el valor 5 en la posici髇 4, Array = [5, 6, 1, 10], Suma=24 
+Hilo Cosumidor, saca el valor 10 en la posici髇 3, Array = [5, 6, 1], Suma=34 
+Hilo Cosumidor, saca el valor 1 en la posici髇 2, Array = [5, 6], Suma=35 
+Hilo Cosumidor, saca el valor 6 en la posici髇 1, Array = [5], Suma=41 
+Hilo Cosumidor, saca el valor 5 en la posici髇 0, Array = [], Suma=46 
+Hilo Cosumidor, saca el valor 0 en la posici髇 9, Array = [9, 4, 4, 4, 8, 2, 3, 7, 3], Suma=46 
+Hilo Cosumidor, saca el valor 3 en la posici髇 8, Array = [9, 4, 4, 4, 8, 2, 3, 7], Suma=49 
+Hilo Cosumidor, saca el valor 7 en la posici髇 7, Array = [9, 4, 4, 4, 8, 2, 3], Suma=56 
+Hilo Cosumidor, saca el valor 3 en la posici髇 6, Array = [9, 4, 4, 4, 8, 2], Suma=59 
+Hilo Cosumidor, saca el valor 2 en la posici髇 5, Array = [9, 4, 4, 4, 8], Suma=61 
+Hilo Cosumidor, saca el valor 8 en la posici髇 4, Array = [9, 4, 4, 4], Suma=69 
+Hilo Cosumidor, saca el valor 4 en la posici髇 3, Array = [9, 4, 4], Suma=73 
+Hilo Cosumidor, saca el valor 4 en la posici髇 2, Array = [9, 4], Suma=77 
+Hilo Cosumidor, saca el valor 4 en la posici髇 1, Array = [9], Suma=81 
+Hilo Cosumidor, saca el valor 9 en la posici髇 0, Array = [], Suma=90 
+Hilo Cosumidor, saca el valor 8 en la posici髇 9, Array = [6, 6, 7, 0, 3, 0, 8, 5, 8], Suma=98 
+Hilo Cosumidor, saca el valor 8 en la posici髇 8, Array = [6, 6, 7, 0, 3, 0, 8, 5], Suma=106 
+============================================================================
+################  Ejecuci髇 de hilos Productores  ##########################
+============================================================================
+Hilo Productor1, introduce el valor 2 en la posici髇 0, Array = [2], Suma=0 
+Hilo Productor1, introduce el valor 3 en la posici髇 1, Array = [2, 3], Suma=0 
+Hilo Productor1, introduce el valor 3 en la posici髇 2, Array = [2, 3, 3], Suma=0 
+Hilo Productor1, introduce el valor 10 en la posici髇 3, Array = [2, 3, 3, 10], Suma=0 
+Hilo Productor1, introduce el valor 3 en la posici髇 4, Array = [2, 3, 3, 10, 3], Suma=0 
+Hilo Productor1, introduce el valor 10 en la posici髇 5, Array = [2, 3, 3, 10, 3, 10], Suma=0 
+Hilo Productor1, introduce el valor 1 en la posici髇 6, Array = [2, 3, 3, 10, 3, 10, 1], Suma=0 
+Hilo Productor1, introduce el valor 3 en la posici髇 7, Array = [2, 3, 3, 10, 3, 10, 1, 3], Suma=0 
+Hilo Productor1, introduce el valor 6 en la posici髇 8, Array = [2, 3, 3, 10, 3, 10, 1, 3, 6], Suma=0 
+Hilo Productor1, introduce el valor 2 en la posici髇 9, Array = [2, 3, 3, 10, 3, 10, 1, 3, 6, 2], Suma=0 
+Hilo Productor1, introduce el valor 2 en la posici髇 0, Array = [2], Suma=43 
+Hilo Productor1, introduce el valor 3 en la posici髇 1, Array = [2, 3], Suma=43 
+Hilo Productor1, introduce el valor 7 en la posici髇 2, Array = [2, 3, 7], Suma=43 
+Hilo Productor1, introduce el valor 9 en la posici髇 3, Array = [2, 3, 7, 9], Suma=43 
+Hilo Productor1, introduce el valor 9 en la posici髇 4, Array = [2, 3, 7, 9, 9], Suma=43 
+Hilo Productor1, introduce el valor 9 en la posici髇 5, Array = [2, 3, 7, 9, 9, 9], Suma=43 
+Hilo Productor1, introduce el valor 6 en la posici髇 6, Array = [2, 3, 7, 9, 9, 9, 6], Suma=43 
+Hilo Productor1, introduce el valor 2 en la posici髇 7, Array = [2, 3, 7, 9, 9, 9, 6, 2], Suma=43 
+Hilo Productor1, introduce el valor 8 en la posici髇 8, Array = [2, 3, 7, 9, 9, 9, 6, 2, 8], Suma=43 
+Hilo Productor1, introduce el valor 9 en la posici髇 9, Array = [2, 3, 7, 9, 9, 9, 6, 2, 8, 9], Suma=43 
+Hilo Productor1, introduce el valor 0 en la posici髇 2, Array = [2, 3, 0], Suma=102 
+============================================================================
+################  Ejecuci髇 de hilos Productores  ##########################
+============================================================================
+Hilo Productor2, introduce el valor 3 en la posici髇 3, Array = [2, 3, 0, 3], Suma=102 
+============================================================================
+###############  Ejecuci髇 de hilos Consumidores  ##########################
+============================================================================
+Hilo Cosumidor, saca el valor 2 en la posici髇 9, Array = [2, 3, 3, 10, 3, 10, 1, 3, 6], Suma=2 
+Hilo Cosumidor, saca el valor 6 en la posici髇 8, Array = [2, 3, 3, 10, 3, 10, 1, 3], Suma=8 
+Hilo Cosumidor, saca el valor 3 en la posici髇 7, Array = [2, 3, 3, 10, 3, 10, 1], Suma=11 
+Hilo Cosumidor, saca el valor 1 en la posici髇 6, Array = [2, 3, 3, 10, 3, 10], Suma=12 
+Hilo Cosumidor, saca el valor 10 en la posici髇 5, Array = [2, 3, 3, 10, 3], Suma=22 
+Hilo Cosumidor, saca el valor 3 en la posici髇 4, Array = [2, 3, 3, 10], Suma=25 
+Hilo Cosumidor, saca el valor 10 en la posici髇 3, Array = [2, 3, 3], Suma=35 
+Hilo Cosumidor, saca el valor 3 en la posici髇 2, Array = [2, 3], Suma=38 
+Hilo Cosumidor, saca el valor 3 en la posici髇 1, Array = [2], Suma=41 
+Hilo Cosumidor, saca el valor 2 en la posici髇 0, Array = [], Suma=43 
+Hilo Cosumidor, saca el valor 9 en la posici髇 9, Array = [2, 3, 7, 9, 9, 9, 6, 2, 8], Suma=52 
+Hilo Cosumidor, saca el valor 8 en la posici髇 8, Array = [2, 3, 7, 9, 9, 9, 6, 2], Suma=60 
+Hilo Cosumidor, saca el valor 2 en la posici髇 7, Array = [2, 3, 7, 9, 9, 9, 6], Suma=62 
+Hilo Cosumidor, saca el valor 6 en la posici髇 6, Array = [2, 3, 7, 9, 9, 9], Suma=68 
+Hilo Cosumidor, saca el valor 9 en la posici髇 5, Array = [2, 3, 7, 9, 9], Suma=77 
+Hilo Cosumidor, saca el valor 9 en la posici髇 4, Array = [2, 3, 7, 9], Suma=86 
+Hilo Cosumidor, saca el valor 9 en la posici髇 3, Array = [2, 3, 7], Suma=95 
+Hilo Cosumidor, saca el valor 7 en la posici髇 2, Array = [2, 3], Suma=102 
+============================================================================
+################  Ejecuci贸n de hilos Productores  ##########################
+============================================================================
+Hilo Productor2, introduce el valor 2 en la posici贸n 5, Array = [3, 1, 8, 10, 2, 2], Suma=30 
+Hilo Productor2, introduce el valor 10 en la posici贸n 6, Array = [3, 1, 8, 10, 2, 2, 10], Suma=30 
+Hilo Productor2, introduce el valor 1 en la posici贸n 7, Array = [3, 1, 8, 10, 2, 2, 10, 1], Suma=30 
+Hilo Productor2, introduce el valor 1 en la posici贸n 8, Array = [3, 1, 8, 10, 2, 2, 10, 1, 1], Suma=30 
+Hilo Productor2, introduce el valor 1 en la posici贸n 9, Array = [3, 1, 8, 10, 2, 2, 10, 1, 1, 1], Suma=30 
+Hilo Productor2, introduce el valor 3 en la posici贸n 4, Array = [6, 4, 10, 5, 3], Suma=109 
+============================================================================
+################  Ejecuci贸n de hilos Productores  ##########################
+============================================================================
+Hilo Productor1, introduce el valor 3 en la posici贸n 0, Array = [3], Suma=0 
+Hilo Productor1, introduce el valor 1 en la posici贸n 1, Array = [3, 1], Suma=0 
+Hilo Productor1, introduce el valor 8 en la posici贸n 2, Array = [3, 1, 8], Suma=0 
+Hilo Productor1, introduce el valor 10 en la posici贸n 3, Array = [3, 1, 8, 10], Suma=0 
+Hilo Productor1, introduce el valor 2 en la posici贸n 4, Array = [3, 1, 8, 10, 2], Suma=0 
+Hilo Productor1, introduce el valor 0 en la posici贸n 5, Array = [3, 1, 8, 10, 2, 0], Suma=0 
+Hilo Productor1, introduce el valor 10 en la posici贸n 6, Array = [3, 1, 8, 10, 2, 0, 10], Suma=0 
+Hilo Productor1, introduce el valor 9 en la posici贸n 7, Array = [3, 1, 8, 10, 2, 0, 10, 9], Suma=0 
+Hilo Productor1, introduce el valor 7 en la posici贸n 8, Array = [3, 1, 8, 10, 2, 0, 10, 9, 7], Suma=0 
+Hilo Productor1, introduce el valor 4 en la posici贸n 9, Array = [3, 1, 8, 10, 2, 0, 10, 9, 7, 4], Suma=0 
+Hilo Productor1, introduce el valor 6 en la posici贸n 0, Array = [6], Suma=69 
+Hilo Productor1, introduce el valor 4 en la posici贸n 1, Array = [6, 4], Suma=69 
+Hilo Productor1, introduce el valor 10 en la posici贸n 2, Array = [6, 4, 10], Suma=69 
+Hilo Productor1, introduce el valor 5 en la posici贸n 3, Array = [6, 4, 10, 5], Suma=69 
+Hilo Productor1, introduce el valor 10 en la posici贸n 4, Array = [6, 4, 10, 5, 10], Suma=69 
+Hilo Productor1, introduce el valor 8 en la posici贸n 5, Array = [6, 4, 10, 5, 10, 8], Suma=69 
+Hilo Productor1, introduce el valor 3 en la posici贸n 6, Array = [6, 4, 10, 5, 10, 8, 3], Suma=69 
+Hilo Productor1, introduce el valor 5 en la posici贸n 7, Array = [6, 4, 10, 5, 10, 8, 3, 5], Suma=69 
+Hilo Productor1, introduce el valor 10 en la posici贸n 8, Array = [6, 4, 10, 5, 10, 8, 3, 5, 10], Suma=69 
+Hilo Productor1, introduce el valor 4 en la posici贸n 9, Array = [6, 4, 10, 5, 10, 8, 3, 5, 10, 4], Suma=69 
+Hilo Productor1, introduce el valor 6 en la posici贸n 5, Array = [6, 4, 10, 5, 3, 6], Suma=109 
+============================================================================
+###############  Ejecuci贸n de hilos Consumidores  ##########################
+============================================================================
+Hilo Cosumidor, saca el valor 4 en la posici贸n 9, Array = [3, 1, 8, 10, 2, 0, 10, 9, 7], Suma=4 
+Hilo Cosumidor, saca el valor 7 en la posici贸n 8, Array = [3, 1, 8, 10, 2, 0, 10, 9], Suma=11 
+Hilo Cosumidor, saca el valor 9 en la posici贸n 7, Array = [3, 1, 8, 10, 2, 0, 10], Suma=20 
+Hilo Cosumidor, saca el valor 10 en la posici贸n 6, Array = [3, 1, 8, 10, 2, 0], Suma=30 
+Hilo Cosumidor, saca el valor 0 en la posici贸n 5, Array = [3, 1, 8, 10, 2], Suma=30 
+Hilo Cosumidor, saca el valor 1 en la posici贸n 9, Array = [3, 1, 8, 10, 2, 2, 10, 1, 1], Suma=31 
+Hilo Cosumidor, saca el valor 1 en la posici贸n 8, Array = [3, 1, 8, 10, 2, 2, 10, 1], Suma=32 
+Hilo Cosumidor, saca el valor 1 en la posici贸n 7, Array = [3, 1, 8, 10, 2, 2, 10], Suma=33 
+Hilo Cosumidor, saca el valor 10 en la posici贸n 6, Array = [3, 1, 8, 10, 2, 2], Suma=43 
+Hilo Cosumidor, saca el valor 2 en la posici贸n 5, Array = [3, 1, 8, 10, 2], Suma=45 
+Hilo Cosumidor, saca el valor 2 en la posici贸n 4, Array = [3, 1, 8, 10], Suma=47 
+Hilo Cosumidor, saca el valor 10 en la posici贸n 3, Array = [3, 1, 8], Suma=57 
+Hilo Cosumidor, saca el valor 8 en la posici贸n 2, Array = [3, 1], Suma=65 
+Hilo Cosumidor, saca el valor 1 en la posici贸n 1, Array = [3], Suma=66 
+Hilo Cosumidor, saca el valor 3 en la posici贸n 0, Array = [], Suma=69 
+Hilo Cosumidor, saca el valor 4 en la posici贸n 9, Array = [6, 4, 10, 5, 10, 8, 3, 5, 10], Suma=73 
+Hilo Cosumidor, saca el valor 10 en la posici贸n 8, Array = [6, 4, 10, 5, 10, 8, 3, 5], Suma=83 
+Hilo Cosumidor, saca el valor 5 en la posici贸n 7, Array = [6, 4, 10, 5, 10, 8, 3], Suma=88 
+Hilo Cosumidor, saca el valor 3 en la posici贸n 6, Array = [6, 4, 10, 5, 10, 8], Suma=91 
+Hilo Cosumidor, saca el valor 8 en la posici贸n 5, Array = [6, 4, 10, 5, 10], Suma=99 
+Hilo Cosumidor, saca el valor 10 en la posici贸n 4, Array = [6, 4, 10, 5], Suma=109 
+============================================================================
+################  Ejecuci贸n de hilos Productores  ##########################
+============================================================================
+Hilo Productor1, introduce el valor 5 en la posici贸n 0, Array = [5], Suma=0 
+Hilo Productor1, introduce el valor 0 en la posici贸n 1, Array = [5, 0], Suma=0 
+Hilo Productor1, introduce el valor 7 en la posici贸n 2, Array = [5, 0, 7], Suma=0 
+Hilo Productor1, introduce el valor 5 en la posici贸n 3, Array = [5, 0, 7, 5], Suma=0 
+Hilo Productor1, introduce el valor 3 en la posici贸n 4, Array = [5, 0, 7, 5, 3], Suma=0 
+Hilo Productor1, introduce el valor 9 en la posici贸n 5, Array = [5, 0, 7, 5, 3, 9], Suma=0 
+Hilo Productor1, introduce el valor 3 en la posici贸n 6, Array = [5, 0, 7, 5, 3, 9, 3], Suma=0 
+Hilo Productor1, introduce el valor 9 en la posici贸n 7, Array = [5, 0, 7, 5, 3, 9, 3, 9], Suma=0 
+Hilo Productor1, introduce el valor 7 en la posici贸n 8, Array = [5, 0, 7, 5, 3, 9, 3, 9, 7], Suma=0 
+Hilo Productor1, introduce el valor 9 en la posici贸n 9, Array = [5, 0, 7, 5, 3, 9, 3, 9, 7, 9], Suma=0 
+Hilo Productor1, introduce el valor 3 en la posici贸n 0, Array = [3], Suma=57 
+Hilo Productor1, introduce el valor 4 en la posici贸n 1, Array = [3, 4], Suma=57 
+Hilo Productor1, introduce el valor 10 en la posici贸n 2, Array = [3, 4, 10], Suma=57 
+Hilo Productor1, introduce el valor 0 en la posici贸n 3, Array = [3, 4, 10, 0], Suma=57 
+Hilo Productor1, introduce el valor 7 en la posici贸n 4, Array = [3, 4, 10, 0, 7], Suma=57 
+Hilo Productor1, introduce el valor 6 en la posici贸n 5, Array = [3, 4, 10, 0, 7, 6], Suma=57 
+Hilo Productor1, introduce el valor 9 en la posici贸n 6, Array = [3, 4, 10, 0, 7, 6, 9], Suma=57 
+Hilo Productor1, introduce el valor 3 en la posici贸n 7, Array = [3, 4, 10, 0, 7, 6, 9, 3], Suma=57 
+Hilo Productor1, introduce el valor 5 en la posici贸n 8, Array = [3, 4, 10, 0, 7, 6, 9, 3, 5], Suma=57 
+Hilo Productor1, introduce el valor 4 en la posici贸n 9, Array = [3, 4, 10, 0, 7, 6, 9, 3, 5, 4], Suma=57 
+Hilo Productor1, introduce el valor 3 en la posici贸n 2, Array = [3, 4, 3], Suma=101 
+============================================================================
+################  Ejecuci贸n de hilos Productores  ##########################
+============================================================================
+Hilo Productor2, introduce el valor 1 en la posici贸n 3, Array = [3, 4, 3, 1], Suma=101 
+============================================================================
+###############  Ejecuci贸n de hilos Consumidores  ##########################
+============================================================================
+Hilo Cosumidor, saca el valor 9 en la posici贸n 9, Array = [5, 0, 7, 5, 3, 9, 3, 9, 7], Suma=9 
+Hilo Cosumidor, saca el valor 7 en la posici贸n 8, Array = [5, 0, 7, 5, 3, 9, 3, 9], Suma=16 
+Hilo Cosumidor, saca el valor 9 en la posici贸n 7, Array = [5, 0, 7, 5, 3, 9, 3], Suma=25 
+Hilo Cosumidor, saca el valor 3 en la posici贸n 6, Array = [5, 0, 7, 5, 3, 9], Suma=28 
+Hilo Cosumidor, saca el valor 9 en la posici贸n 5, Array = [5, 0, 7, 5, 3], Suma=37 
+Hilo Cosumidor, saca el valor 3 en la posici贸n 4, Array = [5, 0, 7, 5], Suma=40 
+Hilo Cosumidor, saca el valor 5 en la posici贸n 3, Array = [5, 0, 7], Suma=45 
+Hilo Cosumidor, saca el valor 7 en la posici贸n 2, Array = [5, 0], Suma=52 
+Hilo Cosumidor, saca el valor 0 en la posici贸n 1, Array = [5], Suma=52 
+Hilo Cosumidor, saca el valor 5 en la posici贸n 0, Array = [], Suma=57 
+Hilo Cosumidor, saca el valor 4 en la posici贸n 9, Array = [3, 4, 10, 0, 7, 6, 9, 3, 5], Suma=61 
+Hilo Cosumidor, saca el valor 5 en la posici贸n 8, Array = [3, 4, 10, 0, 7, 6, 9, 3], Suma=66 
+Hilo Cosumidor, saca el valor 3 en la posici贸n 7, Array = [3, 4, 10, 0, 7, 6, 9], Suma=69 
+Hilo Cosumidor, saca el valor 9 en la posici贸n 6, Array = [3, 4, 10, 0, 7, 6], Suma=78 
+Hilo Cosumidor, saca el valor 6 en la posici贸n 5, Array = [3, 4, 10, 0, 7], Suma=84 
+Hilo Cosumidor, saca el valor 7 en la posici贸n 4, Array = [3, 4, 10, 0], Suma=91 
+Hilo Cosumidor, saca el valor 0 en la posici贸n 3, Array = [3, 4, 10], Suma=91 
+Hilo Cosumidor, saca el valor 10 en la posici贸n 2, Array = [3, 4], Suma=101 
+============================================================================
+################  Ejecuci贸n de hilos Productores  ##########################
+============================================================================
+Hilo Productor2, introduce el valor 1 en la posici贸n 2, Array = [5, 8, 1], Suma=100 
+============================================================================
+################  Ejecuci贸n de hilos Productores  ##########################
+============================================================================
+Hilo Productor1, introduce el valor 10 en la posici贸n 0, Array = [10], Suma=0 
+Hilo Productor1, introduce el valor 9 en la posici贸n 1, Array = [10, 9], Suma=0 
+Hilo Productor1, introduce el valor 1 en la posici贸n 2, Array = [10, 9, 1], Suma=0 
+Hilo Productor1, introduce el valor 9 en la posici贸n 3, Array = [10, 9, 1, 9], Suma=0 
+Hilo Productor1, introduce el valor 8 en la posici贸n 4, Array = [10, 9, 1, 9, 8], Suma=0 
+Hilo Productor1, introduce el valor 9 en la posici贸n 5, Array = [10, 9, 1, 9, 8, 9], Suma=0 
+Hilo Productor1, introduce el valor 8 en la posici贸n 6, Array = [10, 9, 1, 9, 8, 9, 8], Suma=0 
+Hilo Productor1, introduce el valor 4 en la posici贸n 7, Array = [10, 9, 1, 9, 8, 9, 8, 4], Suma=0 
+Hilo Productor1, introduce el valor 0 en la posici贸n 8, Array = [10, 9, 1, 9, 8, 9, 8, 4, 0], Suma=0 
+Hilo Productor1, introduce el valor 1 en la posici贸n 9, Array = [10, 9, 1, 9, 8, 9, 8, 4, 0, 1], Suma=0 
+Hilo Productor1, introduce el valor 5 en la posici贸n 0, Array = [5], Suma=59 
+Hilo Productor1, introduce el valor 8 en la posici贸n 1, Array = [5, 8], Suma=59 
+Hilo Productor1, introduce el valor 9 en la posici贸n 2, Array = [5, 8, 9], Suma=59 
+Hilo Productor1, introduce el valor 9 en la posici贸n 3, Array = [5, 8, 9, 9], Suma=59 
+Hilo Productor1, introduce el valor 1 en la posici贸n 4, Array = [5, 8, 9, 9, 1], Suma=59 
+Hilo Productor1, introduce el valor 7 en la posici贸n 5, Array = [5, 8, 9, 9, 1, 7], Suma=59 
+Hilo Productor1, introduce el valor 5 en la posici贸n 6, Array = [5, 8, 9, 9, 1, 7, 5], Suma=59 
+Hilo Productor1, introduce el valor 5 en la posici贸n 7, Array = [5, 8, 9, 9, 1, 7, 5, 5], Suma=59 
+Hilo Productor1, introduce el valor 3 en la posici贸n 8, Array = [5, 8, 9, 9, 1, 7, 5, 5, 3], Suma=59 
+Hilo Productor1, introduce el valor 2 en la posici贸n 9, Array = [5, 8, 9, 9, 1, 7, 5, 5, 3, 2], Suma=59 
+Hilo Productor1, introduce el valor 1 en la posici贸n 3, Array = [5, 8, 1, 1], Suma=100 
+============================================================================
+###############  Ejecuci贸n de hilos Consumidores  ##########################
+============================================================================
+Hilo Cosumidor, saca el valor 1 en la posici贸n 9, Array = [10, 9, 1, 9, 8, 9, 8, 4, 0], Suma=1 
+Hilo Cosumidor, saca el valor 0 en la posici贸n 8, Array = [10, 9, 1, 9, 8, 9, 8, 4], Suma=1 
+Hilo Cosumidor, saca el valor 4 en la posici贸n 7, Array = [10, 9, 1, 9, 8, 9, 8], Suma=5 
+Hilo Cosumidor, saca el valor 8 en la posici贸n 6, Array = [10, 9, 1, 9, 8, 9], Suma=13 
+Hilo Cosumidor, saca el valor 9 en la posici贸n 5, Array = [10, 9, 1, 9, 8], Suma=22 
+Hilo Cosumidor, saca el valor 8 en la posici贸n 4, Array = [10, 9, 1, 9], Suma=30 
+Hilo Cosumidor, saca el valor 9 en la posici贸n 3, Array = [10, 9, 1], Suma=39 
+Hilo Cosumidor, saca el valor 1 en la posici贸n 2, Array = [10, 9], Suma=40 
+Hilo Cosumidor, saca el valor 9 en la posici贸n 1, Array = [10], Suma=49 
+Hilo Cosumidor, saca el valor 10 en la posici贸n 0, Array = [], Suma=59 
+Hilo Cosumidor, saca el valor 2 en la posici贸n 9, Array = [5, 8, 9, 9, 1, 7, 5, 5, 3], Suma=61 
+Hilo Cosumidor, saca el valor 3 en la posici贸n 8, Array = [5, 8, 9, 9, 1, 7, 5, 5], Suma=64 
+Hilo Cosumidor, saca el valor 5 en la posici贸n 7, Array = [5, 8, 9, 9, 1, 7, 5], Suma=69 
+Hilo Cosumidor, saca el valor 5 en la posici贸n 6, Array = [5, 8, 9, 9, 1, 7], Suma=74 
+Hilo Cosumidor, saca el valor 7 en la posici贸n 5, Array = [5, 8, 9, 9, 1], Suma=81 
+Hilo Cosumidor, saca el valor 1 en la posici贸n 4, Array = [5, 8, 9, 9], Suma=82 
+Hilo Cosumidor, saca el valor 9 en la posici贸n 3, Array = [5, 8, 9], Suma=91 
+Hilo Cosumidor, saca el valor 9 en la posici贸n 2, Array = [5, 8], Suma=100 
